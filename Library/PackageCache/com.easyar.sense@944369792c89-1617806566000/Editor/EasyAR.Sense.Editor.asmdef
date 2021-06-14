@@ -1,0 +1,23 @@
+{
+	"name": "EasyAR.Sense.Editor",
+	"references": [
+		"EasyAR.Sense"
+	],
+	"includePlatforms": [
+		"Editor"
+	],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [
+		{
+			"name": "com.unity.xr.arcore",
+			"expression": "",
+			"define": "EASYAR_ENABLE_UNITYARCORE"
+		}
+	],
+	"noEngineReferences": false
+}
