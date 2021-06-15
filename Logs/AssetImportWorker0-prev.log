@@ -15,11 +15,11 @@ D:/Unity_projects/AR_Crane
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61679
+64052
 Successfully changed project path to: D:/Unity_projects/AR_Crane
 D:/Unity_projects/AR_Crane
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.5f1 (e2c53f129de5)
 [Subsystems] Discovering subsystems at path C:/Program Files/UnityEditor-IH/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,150 +35,295 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/UnityEditor-IH/2020.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/UnityEditor-IH/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/UnityEditor-IH/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/UnityEditor-IH/2020.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/UnityEditor-IH/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002279 seconds.
+Registered in 0.002231 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.786 seconds
+- Completed reload, in  1.587 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001726 seconds.
+Registered in 0.001385 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
+- Completed reload, in  0.905 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1184 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 60.6 MB.
 System memory in use after: 60.6 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1613.
-Total: 2.314600 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.101200 ms MarkObjects: 1.908400 ms  DeleteObjects: 0.095900 ms)
+Total: 2.060700 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.094900 ms MarkObjects: 1.660400 ms  DeleteObjects: 0.073800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/EasyAR/Settings.asset
-  artifactKey: Guid(6082f653a362b2346b6c6ca788f27f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/EasyAR/Settings.asset using Guid(6082f653a362b2346b6c6ca788f27f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1a5bf9701a9fa031d8a337287fd397') in 0.038400 seconds
-  Import took 0.042110 seconds .
+  path: Packages/com.easyar.sense
+  artifactKey: Guid(f02aec1362f0df13c2602aff5a0b0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense using Guid(f02aec1362f0df13c2602aff5a0b0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea34d76d92155f1d502cabe8e41d9e09') in 0.004674 seconds
+  Import took 0.035598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Packages/com.unity.timeline
+  artifactKey: Guid(a4610cf559d77b9f256416d9ccaeac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline using Guid(a4610cf559d77b9f256416d9ccaeac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073d8b582c00cd9514617b7475a547d1') in 0.002505 seconds
+  Import took 0.013161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939333 seconds.
+  path: Packages/com.easyar.sense/Prefabs
+  artifactKey: Guid(e3829859d3bea9f49a31f1ea8003404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs using Guid(e3829859d3bea9f49a31f1ea8003404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab34621f4d57cf46b39885881396eea') in 0.002920 seconds
+  Import took 0.018859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931238 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives
+  artifactKey: Guid(da45554bfdf825a4bb47890879854156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives using Guid(da45554bfdf825a4bb47890879854156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13488d9fb9aecc8d82c9b18ccafc742a') in 0.002896 seconds
+  Import took 0.020388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.655398 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Composites
+  artifactKey: Guid(fe61e0a4f45946e4a8a54988ebf20e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Composites using Guid(fe61e0a4f45946e4a8a54988ebf20e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f07137445f3a0417eae1b9aba3f073b') in 0.002585 seconds
+  Import took 0.016557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.148740 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Composites/EasyAR_VideoCamera.prefab
+  artifactKey: Guid(a0d8f03c546396f48b60cb947bb703e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Composites/EasyAR_VideoCamera.prefab using Guid(a0d8f03c546396f48b60cb947bb703e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9910e50e90f584fedf5ee3a34aaf4e') in 0.051541 seconds
+  Import took 0.065862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.433693 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/ImageTarget.prefab
+  artifactKey: Guid(40be5343836efc449af67e54876afb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/ImageTarget.prefab using Guid(40be5343836efc449af67e54876afb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6106b257e2745ed92e0f9ca45ced4d00') in 0.004783 seconds
+  Import took 0.016229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.041146 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/ImageTracker.prefab
+  artifactKey: Guid(3d33054c022b2b044b8a2d10ddaa3341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/ImageTracker.prefab using Guid(3d33054c022b2b044b8a2d10ddaa3341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88912130b7adb8b14f9634f8b2be40c5') in 0.006090 seconds
+  Import took 0.041863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.285667 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/ObjectTarget.prefab
+  artifactKey: Guid(128f5cb16f2599941a6491a216a79bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/ObjectTarget.prefab using Guid(128f5cb16f2599941a6491a216a79bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dd4abf8a25722a54099a65abfdb292') in 0.005331 seconds
+  Import took 0.029226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/ObjectTarget.prefab
+  artifactKey: Guid(128f5cb16f2599941a6491a216a79bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/ObjectTarget.prefab using Guid(128f5cb16f2599941a6491a216a79bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dd4abf8a25722a54099a65abfdb292') in 0.004201 seconds
+  Import took 0.010788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.016491 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/ObjectTracker.prefab
+  artifactKey: Guid(4d4172fd4550b7d49b15fbe91d792b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/ObjectTracker.prefab using Guid(4d4172fd4550b7d49b15fbe91d792b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0a07b1112b417ec983e729ba7eff81') in 0.006022 seconds
+  Import took 0.022891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.287199 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/RenderCamera.prefab
+  artifactKey: Guid(1cdb5484bd586d644aa40f1278dceb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/RenderCamera.prefab using Guid(1cdb5484bd586d644aa40f1278dceb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf4b13b7c1336296016d386830e29e5') in 0.004565 seconds
+  Import took 0.007605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.694111 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/SparseSpatialMap.prefab
+  artifactKey: Guid(96cf873901cdf1048a37a20d931f6675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/SparseSpatialMap.prefab using Guid(96cf873901cdf1048a37a20d931f6675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fce541114d103210c6aeb6db8b57a14') in 0.007591 seconds
+  Import took 0.028095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003296 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/SparseSpatialMap.prefab
+  artifactKey: Guid(96cf873901cdf1048a37a20d931f6675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/SparseSpatialMap.prefab using Guid(96cf873901cdf1048a37a20d931f6675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fce541114d103210c6aeb6db8b57a14') in 0.007023 seconds
+  Import took 0.009989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.145464 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/DenseSpatialMapBuilder.prefab
+  artifactKey: Guid(b02f370078f5b1449a7e4b1fc1ce88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/DenseSpatialMapBuilder.prefab using Guid(b02f370078f5b1449a7e4b1fc1ce88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eccfca61f9d36fb10e62e0b324321e') in 0.007388 seconds
+  Import took 0.031856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001596 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/DenseSpatialMapBuilder.prefab
+  artifactKey: Guid(b02f370078f5b1449a7e4b1fc1ce88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/DenseSpatialMapBuilder.prefab using Guid(b02f370078f5b1449a7e4b1fc1ce88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eccfca61f9d36fb10e62e0b324321e') in 0.005791 seconds
+  Import took 0.008384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.606873 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/DenseSpatialMapBlock.prefab
+  artifactKey: Guid(900820353e09b7443a3314988b497f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/DenseSpatialMapBlock.prefab using Guid(900820353e09b7443a3314988b497f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b1468aa49bfa0fedf1c0eba2bd6d00') in 0.004899 seconds
+  Import took 0.008485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.072731 seconds.
+  path: Packages/com.easyar.sense/Prefabs/Primitives/CloudRecognizer.prefab
+  artifactKey: Guid(44efca3a188a178449507029ff3ad796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Prefabs/Primitives/CloudRecognizer.prefab using Guid(44efca3a188a178449507029ff3ad796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb89300dc7c467585b08d6dbb6d80a0') in 0.005930 seconds
+  Import took 0.036099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.121356 seconds.
+  path: Packages/com.easyar.sense/Resources
+  artifactKey: Guid(eebd347efbdfc574d937f28b65a2ea68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Resources using Guid(eebd347efbdfc574d937f28b65a2ea68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a429fd023d9ba5324769901a0f0f49c0') in 0.004464 seconds
+  Import took 0.035123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.118616 seconds.
+  path: Packages/com.easyar.sense/Runtime
+  artifactKey: Guid(884e9b7ad59d4d8438bd6b0fe56329ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.easyar.sense/Runtime using Guid(884e9b7ad59d4d8438bd6b0fe56329ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2d0028be5959a170d54eb7cc8f9455') in 0.002943 seconds
+  Import took 0.006118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.395359 seconds.
+  path: Assets/Resources/EasyAR
+  artifactKey: Guid(e81a35f88b9197746bec120b403fbc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/EasyAR using Guid(e81a35f88b9197746bec120b403fbc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c543585fca29b577b2460eb578eb873') in 0.003621 seconds
+  Import took 0.150408 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 11.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 36.9 MB.
-System memory in use after: 36.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1613.
-Total: 2.761200 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.404300 ms  DeleteObjects: 0.070300 ms)
-
-========================================================================
-Received Prepare
+Script is not up to date after domain reload: guid(db087a773f6664c4494e29db81eebc72) path("Assets/HiddenEasyAR/permission.RECORD_AUDIO.aar") state(2)
+Script is not up to date after domain reload: guid(31881ab44c9b1fa4286504ad9f7a246c) path("Assets/HiddenEasyAR/permission.CAMERA.aar") state(2)
 Registering precompiled user dll's ...
-Registered in 0.003342 seconds.
+Registered in 0.002443 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
+- Completed reload, in  1.793 seconds
 Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(a80770e65883a34408e7e8020e785ce4) path("Assets/HiddenEasyAR/com.google.ar.core-queries.aar") state(2)
+Script is not up to date after domain reload: guid(db087a773f6664c4494e29db81eebc72) path("Assets/HiddenEasyAR/permission.RECORD_AUDIO.aar") state(2)
+Script is not up to date after domain reload: guid(31881ab44c9b1fa4286504ad9f7a246c) path("Assets/HiddenEasyAR/permission.CAMERA.aar") state(2)
+Script is not up to date after domain reload: guid(d5428c5ad2c4d3f40bca49d458a0d137) path("Assets/HiddenEasyAR/com.google.ar.core-optional.aar") state(2)
+Script is not up to date after domain reload: guid(c477e66ccfca17649b94c9be58b08984) path("Assets/HiddenEasyAR/com.google.ar.core-1.6.0.aar") state(2)
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1173 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 59.7 MB.
-System memory in use after: 59.7 MB.
+System memory in use after: 59.8 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 2.584800 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.217200 ms  DeleteObjects: 0.055400 ms)
+Total: 3.172700 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.626800 ms  DeleteObjects: 0.077600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 10.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 10.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 37.1 MB.
 System memory in use after: 37.2 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 2.549300 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.060700 ms  DeleteObjects: 0.067800 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 37.1 MB.
-System memory in use after: 37.2 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 3.273800 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.796500 ms  DeleteObjects: 0.096800 ms)
+Total: 2.303700 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.931300 ms  DeleteObjects: 0.067200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002215 seconds.
+Registered in 0.001378 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  1.112 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1173 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 59.7 MB.
 System memory in use after: 59.8 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1617.
-Total: 2.392100 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.051300 ms  DeleteObjects: 0.066700 ms)
+Total: 2.060300 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.764800 ms  DeleteObjects: 0.062600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 6.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 9.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 37.2 MB.
-System memory in use after: 37.2 MB.
+System memory in use after: 37.3 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1617.
-Total: 2.717600 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.294600 ms  DeleteObjects: 0.066600 ms)
+Total: 2.811000 ms (FindLiveObjects: 0.253700 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.392300 ms  DeleteObjects: 0.064800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -59,41 +59,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 628}
+      Script: {instanceID: 650}
     - Class: 114
-      Script: {instanceID: 2000}
+      Script: {instanceID: 1728}
     - Class: 114
-      Script: {instanceID: 2012}
+      Script: {instanceID: 2062}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 2074}
     - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 2182}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2302}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2320}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 2370}
     - Class: 114
-      Script: {instanceID: 15236}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 15264}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 15266}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 15268}
+      Script: {instanceID: 3180}
     - Class: 114
-      Script: {instanceID: 15270}
+      Script: {instanceID: 3218}
     - Class: 114
-      Script: {instanceID: 15272}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 15274}
+      Script: {instanceID: 3376}
     - Class: 114
-      Script: {instanceID: 15276}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 17440}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 3574}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -121,6 +121,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: RenderCameraEventHandler
+  - hash:
+      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -133,6 +139,12 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: 50c154a3fc8a461b0ef53e1b81979678
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: VIOCameraDeviceUnion
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -143,6 +155,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 8894df525e9224fadfb62cab777ea76e
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: DenseSpatialMapDepthRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: ac7391b3d2c6823d670355533b7846da
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: ObjectTargetController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -167,6 +191,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3faa79fc19e643fbe41c5f4938308898
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: ImageTrackerFrameFilter
   - hash:
       serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
@@ -265,6 +295,12 @@ ScriptsOnlyBuild:
     className: Container
   - hash:
       serializedVersion: 2
+      Hash: 40fc886df18344f8e8bf70b6effcd016
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: FrameRecorder
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -281,6 +317,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DashBoardButton
+  - hash:
+      serializedVersion: 2
+      Hash: e3a1fbc8527ab19bed914e16a7f8420c
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: CloudRecognizerFrameFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: GUIPopup
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
@@ -313,6 +361,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: dc2ea15dd325c81a3d47bd7148f97876
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: VideoCameraDevice
+  - hash:
+      serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -323,6 +377,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bb57a4688f0dbcbed8a69494cc5f2d58
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: EasyARController
+  - hash:
+      serializedVersion: 2
+      Hash: 9e80dd56f8a5ab59822fd69fac12dd91
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: SparseSpatialMapController
   - hash:
       serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
@@ -341,6 +407,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 6c81d545f28bbaf24cb1b2c543eb4650
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: RenderCameraController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -365,6 +437,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: SurfaceTrackerFrameFilter
   - hash:
       serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
@@ -401,6 +479,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: DenseSpatialMapBlockController
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -445,10 +529,28 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: e34d75779d79734327d567c5112ce4d8
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: SparseSpatialMapWorkerFrameFilter
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TouchManager
+  - hash:
+      serializedVersion: 2
+      Hash: 40fc886df18344f8e8bf70b6effcd016
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: FramePlayer
+  - hash:
+      serializedVersion: 2
+      Hash: da23185e299b582cbcc71f738eda32f2
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: RenderCameraParameters
   - hash:
       serializedVersion: 2
       Hash: 5cc439bf63c0539d39588e69465ac2ab
@@ -463,10 +565,22 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
+      Hash: 69cd7b88ad9c63dbe2c9b0a6cab32098
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: ARSession
+  - hash:
+      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3233d1db4686a0290c9be9b671936a5b
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: WorldRootController
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -494,9 +608,39 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: CameraImageRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 610c9aa89f66ebc74b1294be97637919
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: EasyARSettings
+  - hash:
+      serializedVersion: 2
+      Hash: bc4779f3499625bec58f205cb2b63cc9
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: VideoRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 40bec6a5d10fc0f6c31085e81ea4bf82
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: DenseSpatialMapBuilderFrameFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 05e663695cf99d2dc84d577273e92f0f
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: ImageTargetController
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -523,10 +667,22 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: b275d3316a7ef999a7e08dfca61364d7
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: CameraImageShaders
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 16270d4006d69b44e1f3ad92c1b6fdc0
+    assemblyName: EasyAR.Sense.dll
+    namespaceName: easyar
+    className: ObjectTrackerFrameFilter
   - hash:
       serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
@@ -569,162 +725,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: bb57a4688f0dbcbed8a69494cc5f2d58
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: EasyARController
-  - hash:
-      serializedVersion: 2
-      Hash: 3faa79fc19e643fbe41c5f4938308898
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: ImageTrackerFrameFilter
-  - hash:
-      serializedVersion: 2
-      Hash: 05e663695cf99d2dc84d577273e92f0f
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: ImageTargetController
-  - hash:
-      serializedVersion: 2
-      Hash: 3233d1db4686a0290c9be9b671936a5b
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: WorldRootController
-  - hash:
-      serializedVersion: 2
-      Hash: dc2ea15dd325c81a3d47bd7148f97876
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: VideoCameraDevice
-  - hash:
-      serializedVersion: 2
-      Hash: 69cd7b88ad9c63dbe2c9b0a6cab32098
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: ARSession
-  - hash:
-      serializedVersion: 2
-      Hash: 6c81d545f28bbaf24cb1b2c543eb4650
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: RenderCameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: CameraImageRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: SurfaceTrackerFrameFilter
-  - hash:
-      serializedVersion: 2
-      Hash: b275d3316a7ef999a7e08dfca61364d7
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: CameraImageShaders
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: RenderCameraEventHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 16270d4006d69b44e1f3ad92c1b6fdc0
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: ObjectTrackerFrameFilter
-  - hash:
-      serializedVersion: 2
-      Hash: 40fc886df18344f8e8bf70b6effcd016
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: FrameRecorder
-  - hash:
-      serializedVersion: 2
-      Hash: e34d75779d79734327d567c5112ce4d8
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: SparseSpatialMapWorkerFrameFilter
-  - hash:
-      serializedVersion: 2
-      Hash: 50c154a3fc8a461b0ef53e1b81979678
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: VIOCameraDeviceUnion
-  - hash:
-      serializedVersion: 2
-      Hash: e3a1fbc8527ab19bed914e16a7f8420c
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: CloudRecognizerFrameFilter
-  - hash:
-      serializedVersion: 2
-      Hash: 610c9aa89f66ebc74b1294be97637919
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: EasyARSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: GUIPopup
-  - hash:
-      serializedVersion: 2
-      Hash: 40fc886df18344f8e8bf70b6effcd016
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: FramePlayer
-  - hash:
-      serializedVersion: 2
-      Hash: da23185e299b582cbcc71f738eda32f2
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: RenderCameraParameters
-  - hash:
-      serializedVersion: 2
-      Hash: 8894df525e9224fadfb62cab777ea76e
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: DenseSpatialMapDepthRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: ac7391b3d2c6823d670355533b7846da
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: ObjectTargetController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: DenseSpatialMapBlockController
-  - hash:
-      serializedVersion: 2
-      Hash: bc4779f3499625bec58f205cb2b63cc9
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: VideoRecorder
-  - hash:
-      serializedVersion: 2
-      Hash: 40bec6a5d10fc0f6c31085e81ea4bf82
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: DenseSpatialMapBuilderFrameFilter
-  - hash:
-      serializedVersion: 2
-      Hash: 9e80dd56f8a5ab59822fd69fac12dd91
-    assemblyName: EasyAR.Sense.dll
-    namespaceName: easyar
-    className: SparseSpatialMapController
   platform: 13
   scenePathNames:
   - Assets/Scenes/main.unity
